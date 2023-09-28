@@ -9,7 +9,7 @@ import (
 	"net/http"
 )
 
-func retrieveAuthToken(httpClient http.Client) (string, error) {
+func RetrieveAuthToken(httpClient http.Client) (string, error) {
 
 	envErrors := initializeEnvironment()
 	fmt.Println(envErrors)
